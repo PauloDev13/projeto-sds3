@@ -1,9 +1,18 @@
+import DataTable from 'components/DataTable';
+import Footer from 'components/Footer';
+import Navbar from 'components/Navbar';
+
 const App = () => {
   return (
-    <div className="text-primary">
-			OLá mundo
-    </div>
+    <>
+      <Navbar />
+      <div className="container">
+        <h1 className="text-primary">Olá React</h1>
+        <DataTable />
+      </div>
+      <Footer />
+    </>
   );
-}
+};
 
 export default App;
