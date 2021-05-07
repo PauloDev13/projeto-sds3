@@ -1,5 +1,5 @@
 import BarChart from "components/BarChart";
-import DonutChart from "components/BarChart/DonutChart";
+import DonutChart from "components/DonutChart";
 import DataTable from "components/DataTable";
 import Footer from "components/Footer";
 import Navbar from "components/Navbar";
